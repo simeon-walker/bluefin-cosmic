@@ -16,7 +16,7 @@ dnf5 -y copr enable ryanabx/cosmic-epoch
 dnf5 -y install cosmic-desktop
 dnf5 -y copr disable ryanabx/cosmic-epoch
 
-dnf5 -y install gnome-keyring gvfs gvfs-smb gvfs-archive gvfs-afc gvfs-afp
+dnf5 -y install openssh-askpass gnome-keyring gvfs gvfs-archive gvfs-afc gvfs-afp gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb 
 
 # Use a COPR Example:
 #
