@@ -16,6 +16,8 @@ dnf5 -y copr enable ryanabx/cosmic-epoch
 dnf5 -y install cosmic-desktop
 dnf5 -y copr disable ryanabx/cosmic-epoch
 
+dnf5 -y install gnome-keyring gvfs gvfs-smb gvfs-archive gvfs-afc gvfs-afp
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
