@@ -10,6 +10,8 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
+dnf5 install -y hidapi net-snmp-utils rclone gdb butane minicom java-latest-openjdk java-latest-openjdk-devel java-latest-openjdk-headless v4l-utils flac id3v2
+
 dnf5 -y copr enable ryanabx/cosmic-epoch
 dnf5 -y install cosmic-desktop
 dnf5 -y copr disable ryanabx/cosmic-epoch
