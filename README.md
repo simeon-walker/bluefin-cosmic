@@ -1,4 +1,6 @@
-# image-template
+# Original README from ublue image-template left here for my own reference
+
+See <https://github.com/ublue-os/image-template>
 
 # Purpose
 
